@@ -46,8 +46,8 @@ function App() {
       {todos.map((todo) => (
         <Todo key={todo.id} todo={todo}/>
       ))}
-      <TodoForm addTodo={addTodo}/>
     </div>
+      <TodoForm addTodo={addTodo}/>
   
   </div> 
 }
