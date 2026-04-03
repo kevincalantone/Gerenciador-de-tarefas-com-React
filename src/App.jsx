@@ -1,5 +1,7 @@
+
+
 import { useState } from 'react'
-import Todo from './Components/Todo';
+import Todo from './components/Todo';
 import "./App.css"
 import TodoForm from './components/TodoForm';
 
@@ -37,6 +39,14 @@ function App() {
     setTodos(newTodos)
   }
 
+  const removeTodo = (id) => {
+    const newTodos = [...todos]
+    const filteredTodos = newTodos.filter( todo =>
+       todo.id !== id
+    )
+    setTodos(filteredTodos)
+  }
+
 
   return <div className='app'>
   
@@ -44,7 +54,7 @@ function App() {
   
     <div className="todo-list">
       {todos.map((todo) => (
-        <Todo key={todo.id} todo={todo}/>
+        <Todo key={todo.id} todo={todo} removeTodo={removeTodo}/>
       ))}
     </div>
       <TodoForm addTodo={addTodo}/>
@@ -53,3 +63,4 @@ function App() {
 }
 
 export default App
+
