@@ -1,20 +1,21 @@
-# ✅ To Do List com React
+# 📝 Task Manager - React.js
 
-Este projeto consiste em uma aplicação web de lista de tarefas (To Do List) desenvolvida com React, com o objetivo de auxiliar na organização de atividades diárias de forma simples, prática e eficiente.
+Este é um projeto de **Gerenciador de Tarefas** desenvolvido para praticar os fundamentos do React, como manipulação de estados (`useState`), comunicação entre componentes via `props` e métodos de array para filtragem e ordenação.
 
-A aplicação permite ao usuário gerenciar suas tarefas com facilidade, oferecendo funcionalidades essenciais como criação, remoção, marcação de conclusão, além de filtros, busca e ordenação. O projeto simula um cenário real de uso, sendo uma excelente forma de aplicar conceitos fundamentais do desenvolvimento front-end moderno.
+## 🚀 Funcionalidades
 
+- **Adicionar Tarefas:** Criação de novas tarefas com título e categoria específica.
+- **Remover Tarefas:** Exclusão de itens da lista com atualização imediata da interface.
+- **Status de Conclusão:** Alternar entre tarefa pendente e concluída.
+- **Busca Dinâmica:** Barra de pesquisa que filtra as tarefas por texto enquanto você digita.
+- **Filtro por Categoria:** Visualização seletiva de tarefas "Completas", "Incompletas" ou "Todas".
+- **Ordem Alfabética:** Organização da lista em ordem ascendente (A-Z) ou descendente (Z-A).
 
-## ⚙️ Funcionalidades
+## 🛠️ Tecnologias Utilizadas
 
-* Adicionar novas tarefas
-* Remover tarefas existentes
-* Marcar tarefas como concluídas ou pendentes
-* Filtrar tarefas por status (completas/incompletas)
-* Buscar tarefas por nome
-* Ordenar tarefas em ordem alfabética
-* Interface dinâmica e responsiva
+* **React.js** (Biblioteca principal)
+* **JavaScript (ES6+)**
+* **CSS3** (Estilização personalizada)
+* **Hooks:** `useState` para gerenciamento de estado local.
 
-
-
-
+## 📦 Como rodar o projeto
