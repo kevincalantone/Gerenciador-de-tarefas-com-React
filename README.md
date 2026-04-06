@@ -18,4 +18,4 @@ Este é um projeto de **Gerenciador de Tarefas** desenvolvido para praticar os f
 * **CSS3** (Estilização personalizada)
 * **Hooks:** `useState` para gerenciamento de estado local.
 
-## 📦 Como rodar o projeto
+ojeto
